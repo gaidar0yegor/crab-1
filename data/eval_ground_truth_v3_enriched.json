@@ -1,0 +1,652 @@
+[
+  {
+    "name": "Angelaw",
+    "expected": {
+      "website": "https://www.angelaw.fr/",
+      "city": "CHARLEVILLE-MEZIERES",
+      "sector": null,
+      "headcount": null,
+      "department_code": "08",
+      "department": "Ardennes",
+      "region": "Grand Est",
+      "registry_commune": "CHARLEVILLE-MEZIERES",
+      "postal_code": "08000",
+      "_dept_source": "registry",
+      "siren": "897868337"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "897868337",
+      "siret": "89786833700014",
+      "naf": "69.10Z",
+      "headcount_code": "NN"
+    }
+  },
+  {
+    "name": "Milvue",
+    "expected": {
+      "website": "https://www.milvue.com/",
+      "city": "PARIS",
+      "sector": null,
+      "headcount": "20-49 salariés",
+      "department_code": "75",
+      "department": "Paris",
+      "region": "Île-de-France",
+      "registry_commune": "PARIS",
+      "postal_code": "75015",
+      "_dept_source": "registry",
+      "siren": "841005432"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "841005432",
+      "siret": "84100543200031",
+      "naf": "62.01Z",
+      "headcount_code": "12"
+    }
+  },
+  {
+    "name": "Mobsuccess",
+    "expected": {
+      "website": "https://www.mobsuccess.com",
+      "city": "PARIS",
+      "sector": null,
+      "headcount": "50-99 salariés",
+      "department_code": "75",
+      "department": "Paris",
+      "region": "Île-de-France",
+      "registry_commune": "PARIS",
+      "postal_code": "75002",
+      "_dept_source": "registry",
+      "siren": "809891583"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "809891583",
+      "siret": "80989158300050",
+      "naf": "73.12Z",
+      "headcount_code": "21"
+    }
+  },
+  {
+    "name": "FLIM",
+    "expected": {
+      "website": "http://flim.ai",
+      "city": "PARIS",
+      "sector": null,
+      "headcount": "10-19 salariés",
+      "department_code": "75",
+      "department": "Paris",
+      "region": "Île-de-France",
+      "registry_commune": "PARIS",
+      "postal_code": "75019",
+      "_dept_source": "registry",
+      "siren": "887670966"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "887670966",
+      "siret": "88767096600019",
+      "naf": "63.12Z",
+      "headcount_code": "11"
+    }
+  },
+  {
+    "name": "MY JOB GLASSES",
+    "expected": {
+      "website": "https://www.myjobglasses.com/",
+      "city": "PARIS",
+      "sector": null,
+      "headcount": "20-49 salariés",
+      "department_code": "75",
+      "department": "Paris",
+      "region": "Île-de-France",
+      "registry_commune": "PARIS",
+      "postal_code": "75008",
+      "_dept_source": "registry",
+      "siren": "817465552"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "817465552",
+      "siret": "81746555200039",
+      "naf": "62.01Z",
+      "headcount_code": "12"
+    }
+  },
+  {
+    "name": "inarix",
+    "expected": {
+      "website": "https://www.inarix.com/",
+      "city": "PARIS",
+      "sector": null,
+      "headcount": "20-49 salariés",
+      "department_code": "75",
+      "department": "Paris",
+      "region": "Île-de-France",
+      "registry_commune": "PARIS",
+      "postal_code": "75009",
+      "_dept_source": "registry",
+      "siren": "838383255"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "838383255",
+      "siret": "83838325500018",
+      "naf": "62.02A",
+      "headcount_code": "12"
+    }
+  },
+  {
+    "name": "Mentalista",
+    "expected": {
+      "website": "https://mentalista.com/",
+      "city": "VILLEJUIF",
+      "sector": null,
+      "headcount": "3-5 salariés",
+      "department_code": "94",
+      "department": "Val-de-Marne",
+      "region": "Île-de-France",
+      "registry_commune": "VILLEJUIF",
+      "postal_code": "94800",
+      "_dept_source": "registry",
+      "siren": "830635215"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "830635215",
+      "siret": "83063521500015",
+      "naf": "62.01Z",
+      "headcount_code": "02"
+    }
+  },
+  {
+    "name": "Lifen",
+    "expected": {
+      "website": "https://www.lifen.fr",
+      "city": "PARIS",
+      "sector": null,
+      "headcount": "100-199 salariés",
+      "department_code": "75",
+      "department": "Paris",
+      "region": "Île-de-France",
+      "registry_commune": "PARIS",
+      "postal_code": "75008",
+      "_dept_source": "registry",
+      "siren": "809854060"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "809854060",
+      "siret": "80985406000062",
+      "naf": "62.01Z",
+      "headcount_code": "22"
+    }
+  },
+  {
+    "name": "ayomi",
+    "expected": {
+      "website": "https://ayomi.fr/",
+      "city": "PARIS",
+      "sector": null,
+      "headcount": "20-49 salariés",
+      "department_code": "75",
+      "department": "Paris",
+      "region": "Île-de-France",
+      "registry_commune": "PARIS",
+      "postal_code": "75008",
+      "_dept_source": "registry",
+      "siren": "838170918"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "838170918",
+      "siret": "83817091800026",
+      "naf": "63.12Z",
+      "headcount_code": "12"
+    }
+  },
+  {
+    "name": "Spotlight Medical",
+    "expected": {
+      "website": "http://spotlightmedical.com",
+      "city": "PARIS",
+      "sector": null,
+      "headcount": null,
+      "department_code": "75",
+      "department": "Paris",
+      "region": "Île-de-France",
+      "registry_commune": "PARIS",
+      "postal_code": "75014",
+      "_dept_source": "registry",
+      "siren": "983468976"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "983468976",
+      "siret": "98346897600029",
+      "naf": "62.01Z",
+      "headcount_code": "NN"
+    }
+  },
+  {
+    "name": "Inquizyt",
+    "expected": {
+      "website": "https://www.inquizyt.ai",
+      "city": "PARIS",
+      "sector": null,
+      "headcount": null,
+      "department_code": "75",
+      "department": "Paris",
+      "region": "Île-de-France",
+      "registry_commune": "PARIS",
+      "postal_code": "75017",
+      "_dept_source": "registry",
+      "siren": "951257880"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "951257880",
+      "siret": "95125788000017",
+      "naf": "62.01Z",
+      "headcount_code": "NN"
+    }
+  },
+  {
+    "name": "SPARTED",
+    "expected": {
+      "website": "https://www.sparted.com",
+      "city": "PARIS",
+      "sector": null,
+      "headcount": "10-19 salariés",
+      "department_code": "75",
+      "department": "Paris",
+      "region": "Île-de-France",
+      "registry_commune": "PARIS",
+      "postal_code": "75008",
+      "_dept_source": "registry",
+      "siren": "804344216"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "804344216",
+      "siret": "80434421600036",
+      "naf": "58.29C",
+      "headcount_code": "11"
+    }
+  },
+  {
+    "name": "BEYABLE",
+    "expected": {
+      "website": "https://www.beyable.com",
+      "city": "Paris",
+      "sector": null,
+      "department_code": "75",
+      "department": "Paris",
+      "region": "Île-de-France",
+      "_dept_source": "hand_label_department"
+    },
+    "difficulty": "easy"
+  },
+  {
+    "name": "Praiz",
+    "expected": {
+      "website": "https://praiz.io",
+      "city": "PARIS",
+      "sector": null,
+      "headcount": "3-5 salariés",
+      "department_code": "75",
+      "department": "Paris",
+      "region": "Île-de-France",
+      "registry_commune": "PARIS",
+      "postal_code": "75002",
+      "_dept_source": "registry",
+      "siren": "910048875"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "910048875",
+      "siret": "91004887500033",
+      "naf": "62.01Z",
+      "headcount_code": "02"
+    }
+  },
+  {
+    "name": "Footovision",
+    "expected": {
+      "website": "https://www.footovision.com",
+      "city": "PARIS",
+      "sector": null,
+      "headcount": "20-49 salariés",
+      "department_code": "75",
+      "department": "Paris",
+      "region": "Île-de-France",
+      "registry_commune": "PARIS",
+      "postal_code": "75002",
+      "_dept_source": "registry",
+      "siren": "812202406"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "812202406",
+      "siret": "81220240600052",
+      "naf": "62.01Z",
+      "headcount_code": "12"
+    }
+  },
+  {
+    "name": "Partoo",
+    "expected": {
+      "website": "https://www.partoo.co",
+      "city": "PARIS",
+      "sector": null,
+      "headcount": "250-499 salariés",
+      "department_code": "75",
+      "department": "Paris",
+      "region": "Île-de-France",
+      "registry_commune": "PARIS",
+      "postal_code": "75018",
+      "_dept_source": "registry",
+      "siren": "803425404"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "803425404",
+      "siret": "80342540400040",
+      "naf": "58.29A",
+      "headcount_code": "32"
+    }
+  },
+  {
+    "name": "Dust",
+    "expected": {
+      "website": "https://dust.tt",
+      "city": "PARIS",
+      "sector": "Enterprise AI Agents",
+      "headcount": null,
+      "department_code": "75",
+      "department": "Paris",
+      "region": "Île-de-France",
+      "registry_commune": "PARIS",
+      "postal_code": "75011",
+      "_dept_source": "registry",
+      "siren": "981610884"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "981610884",
+      "siret": "98161088400018",
+      "naf": "59.11B",
+      "headcount_code": "NN"
+    }
+  },
+  {
+    "name": "askR.ai",
+    "expected": {
+      "website": "https://en.askr.ai/",
+      "city": "BETTON",
+      "sector": null,
+      "headcount": "1-2 salariés",
+      "department_code": "35",
+      "department": "Ille-et-Vilaine",
+      "region": "Bretagne",
+      "registry_commune": "BETTON",
+      "postal_code": "35830",
+      "_dept_source": "registry",
+      "siren": "823517891"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "823517891",
+      "siret": "82351789100029",
+      "naf": "58.29C",
+      "headcount_code": "01"
+    }
+  },
+  {
+    "name": "Quivr",
+    "expected": {
+      "website": "https://www.quivr.com/",
+      "city": "MONTREUIL",
+      "sector": null,
+      "headcount": null,
+      "department_code": "93",
+      "department": "Seine-Saint-Denis",
+      "region": "Île-de-France",
+      "registry_commune": "MONTREUIL",
+      "postal_code": "93100",
+      "_dept_source": "registry",
+      "siren": "981841109"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "981841109",
+      "siret": "98184110900011",
+      "naf": "58.29C",
+      "headcount_code": "NN"
+    }
+  },
+  {
+    "name": "Doctrine",
+    "expected": {
+      "website": "https://www.doctrine.fr",
+      "city": "TOUL",
+      "sector": null,
+      "headcount": "50-99 salariés",
+      "department_code": "54",
+      "department": "Meurthe-et-Moselle",
+      "region": "Grand Est",
+      "registry_commune": "TOUL",
+      "postal_code": "54200",
+      "_dept_source": "registry",
+      "siren": "339322315"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "339322315",
+      "siret": "33932231500054",
+      "naf": "85.31Z",
+      "headcount_code": "21"
+    }
+  },
+  {
+    "name": "Fuzzy Logic Robotics",
+    "expected": {
+      "website": "https://flr.io",
+      "city": "PARIS",
+      "sector": null,
+      "headcount": "10-19 salariés",
+      "department_code": "75",
+      "department": "Paris",
+      "region": "Île-de-France",
+      "registry_commune": "PARIS",
+      "postal_code": "75003",
+      "_dept_source": "registry",
+      "siren": "835089889"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "835089889",
+      "siret": "83508988900033",
+      "naf": "58.29C",
+      "headcount_code": "11"
+    }
+  },
+  {
+    "name": "DentalMonitoring",
+    "expected": {
+      "website": "https://dentalmonitoring.com/",
+      "city": "Paris",
+      "sector": null,
+      "department_code": "75",
+      "department": "Paris",
+      "region": "Île-de-France",
+      "_dept_source": "hand_label_department"
+    },
+    "difficulty": "easy"
+  },
+  {
+    "name": "Datadome",
+    "expected": {
+      "website": "https://datadome.co/fr",
+      "city": "PARIS",
+      "sector": null,
+      "headcount": "100-199 salariés",
+      "department_code": "75",
+      "department": "Paris",
+      "region": "Île-de-France",
+      "registry_commune": "PARIS",
+      "postal_code": "75008",
+      "_dept_source": "registry",
+      "siren": "811474949"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "811474949",
+      "siret": "81147494900013",
+      "naf": "62.02A",
+      "headcount_code": "22"
+    }
+  },
+  {
+    "name": "Flex.ai",
+    "expected": {
+      "website": "https://flex.ai",
+      "city": "PARIS",
+      "sector": null,
+      "headcount": "1-2 salariés",
+      "department_code": "75",
+      "department": "Paris",
+      "region": "Île-de-France",
+      "registry_commune": "PARIS",
+      "postal_code": "75002",
+      "_dept_source": "registry",
+      "siren": "978139459"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "978139459",
+      "siret": "97813945900017",
+      "naf": "62.01Z",
+      "headcount_code": "01"
+    }
+  },
+  {
+    "name": "Skelter",
+    "expected": {
+      "website": "https://www.getskelter.com",
+      "city": "PARIS",
+      "sector": null,
+      "headcount": null,
+      "department_code": "75",
+      "department": "Paris",
+      "region": "Île-de-France",
+      "registry_commune": "PARIS",
+      "postal_code": "75008",
+      "_dept_source": "registry",
+      "siren": "932109812"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "932109812",
+      "siret": "93210981200010",
+      "naf": "62.01Z",
+      "headcount_code": "NN"
+    }
+  },
+  {
+    "name": "YeldaAI",
+    "expected": {
+      "website": "http://yelda.ai",
+      "city": "Paris",
+      "sector": null,
+      "department_code": "75",
+      "department": "Paris",
+      "region": "Île-de-France",
+      "_dept_source": "hand_label_department"
+    },
+    "difficulty": "easy"
+  },
+  {
+    "name": "Ed AI",
+    "expected": {
+      "website": "http://ed.ai",
+      "city": "LYON",
+      "sector": null,
+      "headcount": null,
+      "department_code": "69",
+      "department": "Rhône",
+      "region": "Auvergne-Rhône-Alpes",
+      "registry_commune": "LYON",
+      "postal_code": "69007",
+      "_dept_source": "registry",
+      "siren": "932580087"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "932580087",
+      "siret": "93258008700017",
+      "naf": "62.01Z",
+      "headcount_code": "NN"
+    }
+  },
+  {
+    "name": "MyndBlue",
+    "expected": {
+      "website": "http://myndblue.io",
+      "city": "Paris",
+      "sector": null,
+      "department_code": "75",
+      "department": "Paris",
+      "region": "Île-de-France",
+      "_dept_source": "hand_label_department"
+    },
+    "difficulty": "easy"
+  },
+  {
+    "name": "Probabl",
+    "expected": {
+      "website": "https://probabl.ai",
+      "city": "PARIS",
+      "sector": "MLOps / scikit-learn",
+      "headcount": "1-2 salariés",
+      "department_code": "75",
+      "department": "Paris",
+      "region": "Île-de-France",
+      "registry_commune": "PARIS",
+      "postal_code": "75002",
+      "_dept_source": "registry",
+      "siren": "979093523"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "979093523",
+      "siret": "97909352300012",
+      "naf": "62.01Z",
+      "headcount_code": "01"
+    }
+  },
+  {
+    "name": "fygurs",
+    "expected": {
+      "website": "https://www.fygurs.com/",
+      "city": "PARIS",
+      "sector": null,
+      "headcount": "1-2 salariés",
+      "department_code": "75",
+      "department": "Paris",
+      "region": "Île-de-France",
+      "registry_commune": "PARIS",
+      "postal_code": "75005",
+      "_dept_source": "registry",
+      "siren": "948824891"
+    },
+    "difficulty": "easy",
+    "registry": {
+      "siren": "948824891",
+      "siret": "94882489100014",
+      "naf": "62.01Z",
+      "headcount_code": "01"
+    }
+  }
+]
