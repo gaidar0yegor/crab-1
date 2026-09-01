@@ -9,8 +9,9 @@ RTX 3060 Ti).
 
 This repo contains **everything you need to verify the published claims
 yourself**: the evaluation harness, the 30-company ground-truth set, and the
-scoring function. The model weights are on Hugging Face (GGUF F16, Apache-2.0,
-same license as the Qwen3 base).
+scoring function. The model weights are on Hugging Face
+([gaidar12345/crab-1](https://huggingface.co/gaidar12345/crab-1) — GGUF F16,
+Apache-2.0, same license as the Qwen3 base).
 
 What it deliberately does NOT contain: the training-data factory (teacher
 generation, trajectory filtering, dataset build). That's the subject of an
