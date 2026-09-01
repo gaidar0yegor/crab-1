@@ -72,6 +72,19 @@ python eval/run_eval.py --model qwen3:1.7b --out results/baseline.json
 
 `OLLAMA_BASE_URL` overrides the default `http://localhost:11434`.
 
+## Why it doesn't answer in chat UIs (LM Studio, ChatGPT, etc.)
+
+Crab-1 is an **agent**, not a chatbot. It was fine-tuned to call four tools
+(French company registry, web search, page extraction, submit) and it only
+produces a profile when those tools are available. Loaded in a plain chat UI
+without the tool schemas and the system prompt, a 1.7B model has nothing to
+act on — it will stall, ramble, or stay silent. That's expected, not a broken
+download.
+
+Run it the way it was trained: Ollama + the quickstart (2 commands above), or
+the eval harness. The Modelfile carries the chat template; the harness
+carries the tools.
+
 ## How the eval works
 
 - The model gets a fixed system prompt (`harness/agent_config.py`) and four
