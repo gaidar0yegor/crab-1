@@ -102,9 +102,12 @@ def main():
     ap.add_argument('--model', required=True)
     ap.add_argument('--out', required=True)
     ap.add_argument('--limit', type=int, default=None)
+    ap.add_argument('--eval-file', default=None,
+                    help='custom ground-truth JSON (defaults to the 30-company benchmark)')
     args = ap.parse_args()
 
-    records = json.loads(EVAL_PATH.read_text())
+    eval_path = Path(args.eval_file) if args.eval_file else EVAL_PATH
+    records = json.loads(eval_path.read_text())
     if args.limit:
         records = records[:args.limit]
 

@@ -1,0 +1,707 @@
+{
+  "model": "crab1_v7",
+  "n": 20,
+  "date": "2026-09-01",
+  "avg_reward": 0.537,
+  "pass_rate": 0.25,
+  "submit_rate": 1.0,
+  "tool_call_rate": 1.0,
+  "valid_call_rate": 1.0,
+  "avg_turns": 4.35,
+  "acc_website": 0.775,
+  "acc_sector": null,
+  "acc_city": 0.263,
+  "wall_seconds": 154.1,
+  "results": [
+    {
+      "company": "Michelin",
+      "answer": {
+        "name": "Michelin",
+        "website": "https://www.michelin.fr/",
+        "city": "74540 Gruffy",
+        "summary": "Profil de Michelin : site officiel https://www.michelin.fr/, siège dans le departement 74 (Gironde), secteur Transport.",
+        "sources": [
+          "registre_francais"
+        ]
+      },
+      "expected": {
+        "website": "https://michelin.com",
+        "department_code": "63"
+      },
+      "reward": {
+        "total": 0.25,
+        "components": {
+          "website": 0.5,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "OVHcloud",
+      "answer": {
+        "name": "OVHcloud",
+        "website": "https://www.ovhcloud.com/",
+        "city": "Roubaix",
+        "summary": "Profil OVHcloud: site officiel https://www.ovhcloud.com/, siège Roubaix (59), secteur cloud computing.",
+        "sources": [
+          "web_search(\"OVHcloud site officiel\" site web)",
+          "registry_lookup(OVHcloud)"
+        ]
+      },
+      "expected": {
+        "website": "https://ovhcloud.com",
+        "department_code": "59"
+      },
+      "reward": {
+        "total": 0.5,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Airbus",
+      "answer": {
+        "name": "Airbus",
+        "website": "https://www.airbus.com/",
+        "city": "BLAGNAC",
+        "summary": "Site officiel Airbus: https://www.airbus.com/; Département: 31 (BLAGNAC); Secteur: Aéronautique.",
+        "sources": [
+          "web_search_result_0",
+          "web_search_result_1",
+          "registry_lookup_result"
+        ]
+      },
+      "expected": {
+        "website": "https://airbus.com",
+        "department_code": "31"
+      },
+      "reward": {
+        "total": 0.5,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Decathlon",
+      "answer": {
+        "name": "Decathlon",
+        "website": "https://www.decathlon.com/",
+        "city": "59 VILLENEUVE-D'ASCQ",
+        "summary": "Profil de Decathlon : site officiel https://www.decathlon.com/, siège à Villeneuve-d'Ascq (département 59), secteur Commerce et services.",
+        "sources": [
+          "registre_francais"
+        ]
+      },
+      "expected": {
+        "website": "https://decathlon.fr",
+        "department_code": "59"
+      },
+      "reward": {
+        "total": 0.25,
+        "components": {
+          "website": 0.5,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Leroy Merlin",
+      "answer": {
+        "name": "Leroy Merlin",
+        "website": "https://www.leroymerlin.fr/",
+        "city": "Lezennes",
+        "summary": "Profil de Leroy Merlin : site officiel https://www.leroymerlin.fr/, siège Lezennes (59260), secteur construction.",
+        "sources": [
+          "registre official"
+        ]
+      },
+      "expected": {
+        "website": "https://leroymerlin.fr",
+        "department_code": "59"
+      },
+      "reward": {
+        "total": 0.5,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Dassault Systemes",
+      "answer": {
+        "name": "Dassault Systemes",
+        "website": "https://www.dassault-systemes.com/",
+        "city": "Val-de-Marne",
+        "summary": "Profil de Dassault Systemes: site officiel https://www.dassault-systemes.com/, siège Val-de-Marne, secteur logiciel.",
+        "sources": [
+          "registre français"
+        ]
+      },
+      "expected": {
+        "website": "https://3ds.com",
+        "department_code": "78"
+      },
+      "reward": {
+        "total": 0.0,
+        "components": {
+          "website": 0.0,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Ubisoft",
+      "answer": {
+        "name": "Ubisoft",
+        "website": "https://www.ubisoft.com/",
+        "city": "Saint-Mandé",
+        "summary": "Profil de Ubisoft : site officiel https://www.ubisoft.com/, départment 94 (Saint-Mandé), secteur jeux vidéo.",
+        "sources": [
+          "web_search: \"site officiel de Ubisoft\""
+        ]
+      },
+      "expected": {
+        "website": "https://ubisoft.com"
+      },
+      "reward": {
+        "total": 1.0,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": null
+        },
+        "scored_fields": [
+          "website"
+        ],
+        "passes_threshold": true,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Ledger",
+      "answer": {
+        "name": "Ledger",
+        "website": "https://www.ledger.com/",
+        "city": "Paris",
+        "summary": "Profil de Ledger: site https://www.ledger.com/, siège Paris, secteur informatique.",
+        "sources": [
+          "web_search_result_0",
+          "registry_lookup_result_0"
+        ]
+      },
+      "expected": {
+        "website": "https://ledger.com",
+        "department_code": "75"
+      },
+      "reward": {
+        "total": 1.0,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 1.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": true,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Exotec",
+      "answer": {
+        "name": "Exotec",
+        "website": "https://www.exotec.com/fr/",
+        "city": "WASQUEHAL",
+        "summary": "Profil de Exotec : site officiel https://www.exotec.com/fr/, siège à WASQUEHAL (59), secteur logistique.",
+        "sources": [
+          "web_search: \"site officiel Exotec\" site web",
+          "registry_lookup: Exotec"
+        ]
+      },
+      "expected": {
+        "website": "https://exotec.com",
+        "department_code": "59"
+      },
+      "reward": {
+        "total": 0.5,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Ynsect",
+      "answer": {
+        "name": "\"Ynsect\"",
+        "website": "https://www.ynsect.com/fr/",
+        "city": "EVRY-COURCOURONNES",
+        "summary": "Profil de Ynsect : site officiel https://www.ynsect.com/fr/, siège EVRY-COURCOURONNES (91), secteur Informatique et technologie.",
+        "sources": [
+          "web_search(\"Ynsect site officiel\" site web)",
+          "web_extract(https://www.societe.com/societe/ynsect-534948617.html)"
+        ]
+      },
+      "expected": {
+        "website": "https://ynsect.com",
+        "department_code": "91"
+      },
+      "reward": {
+        "total": 0.5,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Qonto",
+      "answer": {
+        "name": "Qonto",
+        "website": "https://qonto.com/fr",
+        "city": "Paris",
+        "summary": "Profil de Qonto: site officiel https://qonto.com/fr, siège Paris (75), secteur Finances et Banque.",
+        "sources": [
+          "web_search_result_0",
+          "registry_lookup_result"
+        ]
+      },
+      "expected": {
+        "website": "https://qonto.com",
+        "department_code": "75"
+      },
+      "reward": {
+        "total": 1.0,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 1.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": true,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Alan",
+      "answer": {
+        "name": "Alan",
+        "website": "https://www.cladx.com/",
+        "city": "Paris",
+        "summary": "Profil de Alan : site officiel https://www.cladx.com/, siège Paris, secteur Marketing.",
+        "sources": [
+          "registre_francais",
+          "site_officiel"
+        ]
+      },
+      "expected": {
+        "website": "https://alan.com",
+        "department_code": "75"
+      },
+      "reward": {
+        "total": 0.5,
+        "components": {
+          "website": 0.0,
+          "sector": null,
+          "city": 1.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Back Market",
+      "answer": {
+        "name": "\"Back Market\"",
+        "website": "https://www.backmarket.fr/",
+        "city": "Valenciennes",
+        "summary": "Profile de Back Market: site officiel https://www.backmarket.fr/, siège Valenciennes, secteur B2B.",
+        "sources": [
+          "web_search(\"Back Market site officiel\" site web)",
+          "registry_lookup(\"Back Market\")"
+        ]
+      },
+      "expected": {
+        "website": "https://backmarket.fr",
+        "department_code": "75"
+      },
+      "reward": {
+        "total": 0.5,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 5,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Mirakl",
+      "answer": {
+        "name": "Mirakl",
+        "website": "https://www.mirakl.com/",
+        "city": "Paris",
+        "summary": "Profil de Mirakl : site officiel https://www.mirakl.com/, siège Paris, secteur SaaS.",
+        "sources": [
+          "registre français (SIREN 530897990)"
+        ]
+      },
+      "expected": {
+        "website": "https://mirakl.com",
+        "department_code": "75"
+      },
+      "reward": {
+        "total": 1.0,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 1.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": true,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Devialet",
+      "answer": {
+        "name": "Devialet",
+        "website": "https://www.devialet.com/en-us/",
+        "city": "Paris",
+        "summary": "Profile for Devialet: website https://www.devialet.com/en-us/, city Paris, sector 46.43Z (Audio engineering).",
+        "sources": [
+          "registry_lookup",
+          "web_search"
+        ]
+      },
+      "expected": {
+        "website": "https://devialet.com",
+        "department_code": "75"
+      },
+      "reward": {
+        "total": 1.0,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 1.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": true,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Withings",
+      "answer": {
+        "name": "\"Withings\"",
+        "website": "https://www.withings.com/",
+        "city": "92 Issy-les-Moulineaux",
+        "summary": "Profil de Withings: site officiel https://www.withings.com/, siège 92 Issy-les-Moulineaux, secteur santé connectée.",
+        "sources": [
+          "registre_francais"
+        ]
+      },
+      "expected": {
+        "website": "https://withings.com",
+        "department_code": "92"
+      },
+      "reward": {
+        "total": 0.5,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 7,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Fermob",
+      "answer": {
+        "name": "Fermob",
+        "website": "https://www.fermob.com/",
+        "city": "01 SAINT-DIDIER-SUR-CHALARONNE",
+        "summary": "Profil de Fermob : site officiel https://www.fermob.com/, siège 01 Saint-Dider-sur-Chalaronne (département 84), secteur métallurgie / mobilier de jardin.",
+        "sources": [
+          "registre_francais"
+        ]
+      },
+      "expected": {
+        "website": "https://fermob.com",
+        "department_code": "01"
+      },
+      "reward": {
+        "total": 0.5,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Armor Lux",
+      "answer": {
+        "name": "Armor Lux",
+        "website": "https://www.armor-lux.com/",
+        "city": "Quimper (29)",
+        "summary": "Profil de Armor Lux : site https://www.armor-lux.com/, siège Quimper (29), secteur inconnu.",
+        "sources": [
+          "web_search: \"site de Armor Lux\""
+        ]
+      },
+      "expected": {
+        "website": "https://armorlux.com",
+        "department_code": "29"
+      },
+      "reward": {
+        "total": 0.0,
+        "components": {
+          "website": 0.0,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Saint James",
+      "answer": {
+        "name": "\"Saint James\"",
+        "website": "https://fr.saint-james.com/",
+        "city": "50240 Saint-James",
+        "summary": "Profile de \"Saint James\": site officiel https://fr.saint-james.com/, siège dans le département 50 (Vendée), secteur textile / habillement.",
+        "sources": [
+          "registre official",
+          "site web"
+        ]
+      },
+      "expected": {
+        "website": "https://saint-james.com",
+        "department_code": "50"
+      },
+      "reward": {
+        "total": 0.25,
+        "components": {
+          "website": 0.5,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 7,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Cafes Richard",
+      "answer": {
+        "name": "Cafes Richard",
+        "website": "https://www.cafesrichard.fr/en",
+        "city": "92 Gennevilliers",
+        "summary": "Profil de Cafes Richard : site officiel https://www.cafesrichard.fr/en, siège à Gennevilliers (Paris), secteur café / café en capsules.",
+        "sources": [
+          "registre official français",
+          "résultat recherche web"
+        ]
+      },
+      "expected": {
+        "website": "https://cafesrichard.fr",
+        "department_code": "92"
+      },
+      "reward": {
+        "total": 0.5,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    }
+  ]
+}

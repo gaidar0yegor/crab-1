@@ -1,0 +1,141 @@
+[
+  {
+    "name": "Michelin",
+    "expected": {
+      "website": "https://michelin.com",
+      "department_code": "63"
+    }
+  },
+  {
+    "name": "OVHcloud",
+    "expected": {
+      "website": "https://ovhcloud.com",
+      "department_code": "59"
+    }
+  },
+  {
+    "name": "Airbus",
+    "expected": {
+      "website": "https://airbus.com",
+      "department_code": "31"
+    }
+  },
+  {
+    "name": "Decathlon",
+    "expected": {
+      "website": "https://decathlon.fr",
+      "department_code": "59"
+    }
+  },
+  {
+    "name": "Leroy Merlin",
+    "expected": {
+      "website": "https://leroymerlin.fr",
+      "department_code": "59"
+    }
+  },
+  {
+    "name": "Dassault Systemes",
+    "expected": {
+      "website": "https://3ds.com",
+      "department_code": "78"
+    }
+  },
+  {
+    "name": "Ubisoft",
+    "expected": {
+      "website": "https://ubisoft.com"
+    }
+  },
+  {
+    "name": "Ledger",
+    "expected": {
+      "website": "https://ledger.com",
+      "department_code": "75"
+    }
+  },
+  {
+    "name": "Exotec",
+    "expected": {
+      "website": "https://exotec.com",
+      "department_code": "59"
+    }
+  },
+  {
+    "name": "Ynsect",
+    "expected": {
+      "website": "https://ynsect.com",
+      "department_code": "91"
+    }
+  },
+  {
+    "name": "Qonto",
+    "expected": {
+      "website": "https://qonto.com",
+      "department_code": "75"
+    }
+  },
+  {
+    "name": "Alan",
+    "expected": {
+      "website": "https://alan.com",
+      "department_code": "75"
+    }
+  },
+  {
+    "name": "Back Market",
+    "expected": {
+      "website": "https://backmarket.fr",
+      "department_code": "75"
+    }
+  },
+  {
+    "name": "Mirakl",
+    "expected": {
+      "website": "https://mirakl.com",
+      "department_code": "75"
+    }
+  },
+  {
+    "name": "Devialet",
+    "expected": {
+      "website": "https://devialet.com",
+      "department_code": "75"
+    }
+  },
+  {
+    "name": "Withings",
+    "expected": {
+      "website": "https://withings.com",
+      "department_code": "92"
+    }
+  },
+  {
+    "name": "Fermob",
+    "expected": {
+      "website": "https://fermob.com",
+      "department_code": "01"
+    }
+  },
+  {
+    "name": "Armor Lux",
+    "expected": {
+      "website": "https://armorlux.com",
+      "department_code": "29"
+    }
+  },
+  {
+    "name": "Saint James",
+    "expected": {
+      "website": "https://saint-james.com",
+      "department_code": "50"
+    }
+  },
+  {
+    "name": "Cafes Richard",
+    "expected": {
+      "website": "https://cafesrichard.fr",
+      "department_code": "92"
+    }
+  }
+]

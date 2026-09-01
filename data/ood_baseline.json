@@ -1,0 +1,690 @@
+{
+  "model": "qwen3:1.7b",
+  "n": 20,
+  "date": "2026-09-01",
+  "avg_reward": 0.525,
+  "pass_rate": 0.3,
+  "submit_rate": 1.0,
+  "tool_call_rate": 1.0,
+  "valid_call_rate": 1.0,
+  "avg_turns": 4.15,
+  "acc_website": 0.75,
+  "acc_sector": null,
+  "acc_city": 0.263,
+  "wall_seconds": 306.9,
+  "results": [
+    {
+      "company": "Michelin",
+      "answer": {
+        "name": "Michelin",
+        "website": "https://www.michelin.com/en/",
+        "city": "GRUFFY",
+        "sector": "68.20B",
+        "summary": "Michelin is a global leader in automotive solutions, specializing in tires, automotive materials, and engineering. The company operates in the 68.20B sector (tires and automotive products) and is headquartered in GRUFFY, department 74, France. Key sources include the French company registry and official website details."
+      },
+      "expected": {
+        "website": "https://michelin.com",
+        "department_code": "63"
+      },
+      "reward": {
+        "total": 0.5,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "OVHcloud",
+      "answer": {
+        "headcount": "N/A",
+        "sources": [
+          "https://en.wikipedia.org/wiki/OVH",
+          "https://www.ovhcloud.com/en/",
+          "https://www.status-ovhcloud.com/",
+          "https://x.com/OVHcloud",
+          "https://www.signalhire.com/companies/ovh"
+        ],
+        "name": "OVHcloud",
+        "website": "https://www.ovhcloud.com/",
+        "city": "ROUBAIX",
+        "sector": "Web Hosting"
+      },
+      "expected": {
+        "website": "https://ovhcloud.com",
+        "department_code": "59"
+      },
+      "reward": {
+        "total": 0.5,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 3,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Airbus",
+      "answer": {
+        "sector": "Commercial Aircraft, Helicopters, Defense & Space",
+        "summary": "Airbus is a global aerospace leader operating in commercial aircraft, helicopters, and defense sectors. Based in Blagnac, France, it employs over 20,000 people and focuses on sustainable innovation. Key highlights include the NH90 helicopter and A350 fleet. Sources: Wikipedia, Airbus官网, SignalHire Profile.",
+        "name": "Airbus",
+        "website": "https://www.airbus.com/",
+        "city": "BLAGNAC"
+      },
+      "expected": {
+        "website": "https://airbus.com",
+        "department_code": "31"
+      },
+      "reward": {
+        "total": 0.5,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Decathlon",
+      "answer": {
+        "department": "59",
+        "sector": "Sports Goods and Equipment",
+        "summary": "Decathlon is a French multinational corporation specializing in sports clothing, footwear, and equipment. Its headquarters are in VILLENEUVE-D'ASCQ (department 59, region 32). The company operates globally with a focus on outdoor sports, offering products across 70+ categories. The NAF code 68.20B categorizes its activities under 'Sports Goods and Equipment'.",
+        "name": "Decathlon",
+        "website": "https://www.decathlon.com/",
+        "city": "VILLENEUVE-D'ASCQ"
+      },
+      "expected": {
+        "website": "https://decathlon.fr",
+        "department_code": "59"
+      },
+      "reward": {
+        "total": 0.25,
+        "components": {
+          "website": 0.5,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 3,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Leroy Merlin",
+      "answer": {
+        "name": "Leroy Merlin",
+        "website": "https://en.wikipedia.org/wiki/Leroy_Merlin",
+        "city": "LEZENNES",
+        "sector": "Home improvement and gardening",
+        "summary": "Leroy Merlin is a French-headquartered retailer specializing in home improvement and gardening products. It operates in multiple countries and is owned by the Mulliez family. The company's administrative department is in Lezennes, France, and its sector classification is 47.52B (home improvement and gardening)."
+      },
+      "expected": {
+        "website": "https://leroymerlin.fr",
+        "department_code": "59"
+      },
+      "reward": {
+        "total": 0.0,
+        "components": {
+          "website": 0.0,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 5,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Dassault Systemes",
+      "answer": {
+        "website": "https://www.dassault-systemes.com/",
+        "city": "VELIZY-VILLACOUBLAY",
+        "sector": "58.29C",
+        "headcount": "51",
+        "summary": "Dassault Systemes (DS) is a multinational software development company headquartered in Vélizy-Villacoublay, France. Its sector is 58.29C (Information and communication software and services). The official website is https://www.dassault-systemes.com/.",
+        "name": "Dassault Systemes"
+      },
+      "expected": {
+        "website": "https://3ds.com",
+        "department_code": "78"
+      },
+      "reward": {
+        "total": 0.0,
+        "components": {
+          "website": 0.0,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Ubisoft",
+      "answer": {
+        "summary": "Ubisoft International is a leading game developer and publisher based in Saint-Mande, department 94, region 11. The company operates across multiple platforms, including Steam, YouTube, and Microsoft Store, and is known for titles like Rainbow Six and Destiny. Its NAF code is 70.22Z, and it employs 42 headcount.",
+        "sources": [
+          "registry_lookup",
+          "web_search",
+          "web_extract"
+        ],
+        "name": "Ubisoft International",
+        "website": "https://www.ubisoft.com/en-us",
+        "city": "Saint-Mande",
+        "department": "94",
+        "sector": "Games"
+      },
+      "expected": {
+        "website": "https://ubisoft.com"
+      },
+      "reward": {
+        "total": 1.0,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": null
+        },
+        "scored_fields": [
+          "website"
+        ],
+        "passes_threshold": true,
+        "bonus_headcount": 0.0
+      },
+      "turns": 5,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Ledger",
+      "answer": {
+        "website": "https://www.ledger.com/",
+        "city": "PARIS",
+        "sector": "Financial Services",
+        "summary": "Ledger is a French company specializing in cryptocurrency wallets and security solutions. Its official website is https://www.ledger.com/. The company operates in the Paris department (75), under the Financial Services sector (NAF 62.01Z). Headcount code indicates approximately 41 employees.",
+        "name": "Ledger"
+      },
+      "expected": {
+        "website": "https://ledger.com",
+        "department_code": "75"
+      },
+      "reward": {
+        "total": 1.0,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 1.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": true,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Exotec",
+      "answer": {
+        "name": "Exotec",
+        "website": "https://www.exotec.com/",
+        "city": "WASQUEHAL",
+        "sector": "Warehouse Automation (NAFA 46.69B)",
+        "headcount": "32",
+        "summary": "Exotec is a global leader in warehouse automation, offering end-to-end solutions combining robotics, software, and operational expertise. Founded in 2015 in Lille, France, the company serves over 75 brands with scalable systems for complex operations. Key details: SIREN 812878742, SIRET 81287874200053, and a focus on flexibility and speed in modern logistics."
+      },
+      "expected": {
+        "website": "https://exotec.com",
+        "department_code": "59"
+      },
+      "reward": {
+        "total": 0.5,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Ynsect",
+      "answer": {
+        "headcount": "51-200",
+        "sources": [
+          "https://discovery.patsnap.com/company/ynsect/",
+          "https://leadiq.com/c/ÿnsect/5a1d7dfc2400002400578942",
+          "https://millingmea.com/breakthrough-for-ynsect-as-aafco-grants-first-authorization-for-defatted-mealworm-proteins-in-the-us/"
+        ],
+        "name": "Ynsect",
+        "website": "https://www.ynsect.com",
+        "city": "EVRY-COURCOURONNES",
+        "sector": "Biotechnology (Agro-food & Environmental Biotech)"
+      },
+      "expected": {
+        "website": "https://ynsect.com",
+        "department_code": "91"
+      },
+      "reward": {
+        "total": 0.5,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Qonto",
+      "answer": {
+        "headcount": "41",
+        "summary": "Qonto is a French fintech company operating in the Finance sector, offering business banking solutions. Its official website is qonto.com, and it serves 600,000+ clients. The company is headquartered in Paris, France, with a SIREN of 819489626 and SIRET 81948962600054. Key details include a headcount code of 41 and regional classification under Paris (75 department).",
+        "name": "Qonto",
+        "website": "https://qonto.com/",
+        "city": "PARIS",
+        "sector": "Finance"
+      },
+      "expected": {
+        "website": "https://qonto.com",
+        "department_code": "75"
+      },
+      "reward": {
+        "total": 1.0,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 1.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": true,
+        "bonus_headcount": 0.0
+      },
+      "turns": 3,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Alan",
+      "answer": {
+        "name": "Alan",
+        "website": "https://www.extruct.ai/hub/alan-com/",
+        "city": "MOUGINS",
+        "sector": "Insurance",
+        "summary": "Alan is a French insurance company (SIREN 401386297, SIRET 40138629700030) based in MoUGINS (department 06, region 93). It offers health insurance solutions, employee wellness programs, and remote work support. The company serves over 710,000 members and 33,000 businesses, with a focus on simplifying health management and reimbursement processes. Key features include Alan Play for engagement and tailored coverage for independent workers. Official website: https://www.extruct.ai/hub/alan-com/."
+      },
+      "expected": {
+        "website": "https://alan.com",
+        "department_code": "75"
+      },
+      "reward": {
+        "total": 0.0,
+        "components": {
+          "website": 0.0,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Back Market",
+      "answer": {
+        "summary": "Back Market is a French e-commerce company specializing in refurbished electronics, offering up to 70% discounts on devices like phones, laptops, and smartwatches. Verified via SIREN 989088448, SIRET 98908844800018, and trustpilot reviews (4.6/5).",
+        "name": "Back Market",
+        "website": "https://www.backmarket.com/",
+        "city": "Paris",
+        "sector": "Electronics and Technology"
+      },
+      "expected": {
+        "website": "https://backmarket.fr",
+        "department_code": "75"
+      },
+      "reward": {
+        "total": 0.75,
+        "components": {
+          "website": 0.5,
+          "sector": null,
+          "city": 1.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": true,
+        "bonus_headcount": 0.0
+      },
+      "turns": 7,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Mirakl",
+      "answer": {
+        "department": "75",
+        "summary": "Mirakl is a French e-commerce software company headquartered in Paris, France, and Boston, Massachusetts. It provides online marketplace software to retailers, manufacturers, and wholesalers. The company's sector is 63.11Z (Online Marketplaces), and it operates under the Paris department (75). The official website is https://www.mirakl.com/. Key features include AI-driven commerce solutions and support for digital platform ecosystems.",
+        "name": "Mirakl",
+        "website": "https://www.mirakl.com/",
+        "city": "PARIS",
+        "sector": "63.11Z"
+      },
+      "expected": {
+        "website": "https://mirakl.com",
+        "department_code": "75"
+      },
+      "reward": {
+        "total": 1.0,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 1.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": true,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Devialet",
+      "answer": {
+        "website": "https://www.devialet.com",
+        "city": "PARIS",
+        "sector": "Electronics & Audio Equipment",
+        "summary": "Devialet is a French company specializing in audio technology, offering amplifiers, headphones, and audio solutions. Based in Paris, it operates under the NAF code 46.43Z (Audio Equipment) and is part of the Household Appliances industry. The official website is devialet.com.",
+        "name": "Devialet"
+      },
+      "expected": {
+        "website": "https://devialet.com",
+        "department_code": "75"
+      },
+      "reward": {
+        "total": 1.0,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 1.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": true,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Withings",
+      "answer": {
+        "website": "https://www.withings.com/",
+        "city": "ISSY-LES-MOULINEAUX",
+        "sector": "Health Technology",
+        "summary": "Withings is a French health technology company specializing in smart devices for health monitoring. Its official website is https://www.withings.com/. The company operates in the 92 department of Île-de-France, with 32 headcount. Key highlights include its pioneering role in connected health, clinically validated products, and partnerships with global healthcare providers.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Withings",
+          "https://www.withings.com/",
+          "https://www.signalhire.com/companies/withings",
+          "https://www.linkedin.com/company/withings/",
+          "https://leadiq.com/c/withings/5bcf4a62200000f27be38121"
+        ],
+        "name": "Withings"
+      },
+      "expected": {
+        "website": "https://withings.com",
+        "department_code": "92"
+      },
+      "reward": {
+        "total": 0.5,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 3,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Fermob",
+      "answer": {
+        "name": "Fermob",
+        "website": "https://www.fermob.com/",
+        "city": "Saint-Dider-sur-Chalarnonne",
+        "sector": "Furnishings",
+        "summary": "Fermob is a French company specializing in metal and colored garden furniture, accessories, and lighting. The official website is https://www.fermob.com. The company operates in department 01, region 84, and has a headcount code of 32. Key details include its SIREN 349797357, SIRET 34979735700010, and NAf 31.09B."
+      },
+      "expected": {
+        "website": "https://fermob.com",
+        "department_code": "01"
+      },
+      "reward": {
+        "total": 0.5,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Armor Lux",
+      "answer": {
+        "summary": "Armor Lux (CAPARMOR) is a French company based in Quimper, department 29, specializing in nautical clothing and ready-to-wear. It operates 3 production sites, 85 retail stores, and emphasizes quality, social cohesion, and eco-friendly manufacturing. The official website is https://www.armorlux.com/en.",
+        "name": "CAPARMOR",
+        "website": "https://www.armorlux.com/en",
+        "city": "QUIMPER",
+        "sector": "Nautical clothing and ready-to-wear",
+        "headcount": "600",
+        "sources": [
+          "registry_lookup",
+          "web_search"
+        ]
+      },
+      "expected": {
+        "website": "https://armorlux.com",
+        "department_code": "29"
+      },
+      "reward": {
+        "total": 0.5,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Saint James",
+      "answer": {
+        "city": "Levallois-Perret",
+        "sector": "68.20B (Food Services)",
+        "summary": "Saint James is a French company with SIREN 441975000 and SIRET 44197500000015. It operates a restaurant in Bergerac (Le Saint James Bistrot) and a church in Gerrards Cross. The company is located in Levallois-Perret (department 92, region 11). Official website: https://www.le-saint-james.com/",
+        "name": "Saint James",
+        "website": "https://www.le-saint-james.com/"
+      },
+      "expected": {
+        "website": "https://saint-james.com",
+        "department_code": "50"
+      },
+      "reward": {
+        "total": 0.0,
+        "components": {
+          "website": 0.0,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 6,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    },
+    {
+      "company": "Cafes Richard",
+      "answer": {
+        "summary": "Cafes Richard is a French coffee roasting company based in Gennevilliers, department 92. It specializes in coffee, tea, and chocolate, offering professional solutions for bars and cafes. Key details: SIREN 432573467, SIRET 43257346700011, website https://www.cafesrichard.fr, sources: LeadIQ, Similarweb, Tripadvisor. Headcount code 32.",
+        "name": "Cafes Richard",
+        "website": "https://www.cafesrichard.fr",
+        "city": "GENNEVILLIERS",
+        "sector": "10.83Z (Coffee Roasting)"
+      },
+      "expected": {
+        "website": "https://cafesrichard.fr",
+        "department_code": "92"
+      },
+      "reward": {
+        "total": 0.5,
+        "components": {
+          "website": 1.0,
+          "sector": null,
+          "city": 0.0
+        },
+        "scored_fields": [
+          "city",
+          "website"
+        ],
+        "passes_threshold": false,
+        "bonus_headcount": 0.0
+      },
+      "turns": 4,
+      "valid_call_rate": 1.0,
+      "made_tool_call": true,
+      "submitted": true
+    }
+  ]
+}

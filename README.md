@@ -84,6 +84,32 @@ python eval/run_eval.py --model qwen3:1.7b --out results/baseline.json
   sector when ground truth exists. Fields without ground truth are excluded
   from the mean instead of being free points.
 
+## Out-of-distribution check (2026-08-31)
+
+Because the 30-company benchmark is all startup-style companies, we also ran
+20 well-known French companies the model never saw in any form — CAC40 groups,
+regional SMEs, tricky brand names (Michelin, Airbus, Back Market, Fermob,
+Saint James…). Set: `data/ood_set_20.json`; run your own list with
+`--eval-file`.
+
+- **Website finding generalizes**: 0.78 accuracy (untrained base: 0.75).
+  Most partial misses are defensible TLD variants (michelin.fr vs .com).
+- **Location does not — for either model** (0.26 for both, vs 0.87–0.97 on
+  the startup benchmark). The cause is the tool, not the fine-tune: registry
+  lookup **by name** returns the wrong entity for famous brands (homonyms,
+  subsidiaries, holdings — "Michelin" returns a namesake in Haute-Savoie).
+  Registry disambiguation is the top item on the roadmap.
+- **Pass rate is a statistical tie** (25 % vs 30 % for the base): out of
+  distribution the fine-tune neither wins nor loses — it behaves like the
+  base with the same protocol discipline. Raw per-company results:
+  `data/ood_v7.json` and `data/ood_baseline.json`.
+
+Known single failure worth naming: "Armor Lux" → the model invented a hyphen
+(`armor-lux.com` does not exist; the real site is `armorlux.com`). The
+untrained base found the right domain. This is the class of error to expect
+from a 1.7B: plausible-sounding but false. The eval set of famous brands
+stresses exactly this.
+
 ## Honest limitations
 
 - Trained and evaluated on **French** companies only; the registry tool is
