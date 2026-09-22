@@ -72,6 +72,20 @@ python eval/run_eval.py --model qwen3:1.7b --out results/baseline.json
 
 `OLLAMA_BASE_URL` overrides the default `http://localhost:11434`.
 
+## What it looks like (real output, 2026-08-31 OOD run)
+
+Three profiles from the out-of-distribution set (20 well-known French companies
+the model never trained on), each produced in 4 tool-calling turns:
+
+```json
+{ "company": "Ubisoft", "website": "https://www.ubisoft.com/", "city": "Saint-Mandé", "turns": 4 }
+{ "company": "Ledger",   "website": "https://www.ledger.com/",   "city": "Paris",       "turns": 4 }
+{ "company": "Qonto",    "website": "https://qonto.com/fr",      "city": "Paris",       "turns": 4 }
+```
+
+Raw per-company results (including failures — the honest part):
+`data/ood_v7.json` and `data/ood_baseline.json`.
+
 ## Why it doesn't answer in chat UIs (LM Studio, ChatGPT, etc.)
 
 Crab-1 is an **agent**, not a chatbot. It was fine-tuned to call four tools
