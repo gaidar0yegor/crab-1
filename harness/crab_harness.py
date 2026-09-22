@@ -72,7 +72,7 @@ TOOLS = [
 
 
 def call_llm(model, messages, tools=None, temperature=0.3,
-             base_url="http://localhost:11434"):
+             base_url="http://localhost:11434", seed=None):
     """Call an OpenAI-compatible endpoint (Ollama by default)."""
     import requests
 
@@ -82,6 +82,8 @@ def call_llm(model, messages, tools=None, temperature=0.3,
         "temperature": temperature,
         "stream": False,
     }
+    if seed is not None:
+        payload["seed"] = seed
     if tools:
         payload["tools"] = tools
     resp = requests.post(f"{base_url}/v1/chat/completions", json=payload, timeout=180)

@@ -58,7 +58,7 @@ def execute_tool(name, args):
     return {'error': f'unknown tool {name}'}
 
 
-def run_episode(model, name, max_turns=8):
+def run_episode(model, name, max_turns=8, seed=None):
     messages = [
         {'role': 'system', 'content': SYSTEM_PROMPT},
         {'role': 'user', 'content': f"Build a company profile for: {name}"},
@@ -67,7 +67,8 @@ def run_episode(model, name, max_turns=8):
     for turn in range(1, max_turns + 1):
         turns = turn
         try:
-            resp = ch.call_llm(model, messages, tools=TOOLS, temperature=0.0, base_url=OLLAMA)
+            resp = ch.call_llm(model, messages, tools=TOOLS, temperature=0.0,
+                               base_url=OLLAMA, seed=seed)
             msg = resp['choices'][0]['message']
         except Exception as e:
             messages.append({'role': 'user', 'content': f"(error: {e})"})
@@ -104,6 +105,8 @@ def main():
     ap.add_argument('--limit', type=int, default=None)
     ap.add_argument('--eval-file', default=None,
                     help='custom ground-truth JSON (defaults to the 30-company benchmark)')
+    ap.add_argument('--seed', type=int, default=42,
+                    help='RNG seed passed to the LLM backend for reproducible runs (default 42)')
     args = ap.parse_args()
 
     eval_path = Path(args.eval_file) if args.eval_file else EVAL_PATH
@@ -114,7 +117,7 @@ def main():
     results = []
     t0 = time.time()
     for i, r in enumerate(records, 1):
-        ep = run_episode(args.model, r['name'])
+        ep = run_episode(args.model, r['name'], seed=args.seed)
         rew = compute_reward(ep['answer'], r['expected'])
         results.append({'company': r['name'], 'answer': ep['answer'], 'expected': r['expected'],
                         'reward': rew, 'turns': ep['turns'], 'valid_call_rate': ep['valid_call_rate'],
